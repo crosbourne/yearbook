@@ -1,0 +1,254 @@
+/*Student cubes*/
+.small_wrapper {
+  margin-top:0;
+  width: 100%;
+  float: left;
+}
+
+.small_w1 {
+  perspective: 1000px;
+}
+
+.small_wrapper h1 {
+  text-align: center;
+}
+
+
+.small_cube {
+  font-size: 43px;
+  width: 2em;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 20px;
+/* margin-bottom: 20px;*/
+  transform-style: preserve-3d;
+  /*rotate cube left and right*/
+  transform: rotateX(-20deg) rotateY(40deg);
+}
+
+.small_side {
+  position: absolute;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background: black;
+  /*background: rgba(255, 99, 71, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.5);*/
+  color: white;
+  text-align: center;
+  
+}
+
+/*WDI*/
+#paint {
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+/*side 1*/
+#neil1 {
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+
+
+#luke1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border: solid black 2px;
+}
+
+#joel1{
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+#sadiq1 {
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+
+#bruno1 {
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+
+#mathieu1{
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+#andres1 {
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+
+#sophie1 {
+  position: absolute;
+  left:0px;
+  top:0px;
+  border: solid black 2px;
+}
+
+/*#ga9{
+  position: absolute;
+  left:200px;
+  top:200px;
+  border: solid black 4px;
+}*/
+/*side 2*/
+#nina1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+
+#lisa1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+
+#daniel1{
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+#sebastian1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+#tony1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+#julia1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+
+#ellie1{
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+#rabia1 {
+  position: absolute;
+    left:0px;
+    top: 0px; 
+    border: solid black 2px; 
+}
+
+/*#ga7 {
+    position: absolute;
+    left:200px;
+    top: 200px;
+    border: solid black 4px;*/
+}
+/*top*/
+#joanna1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+ 
+}
+/*#ga8 {
+  position: absolute;
+  left:100px;
+  top: 200px;
+  border: solid black 4px;*/
+}
+#jarkyn1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+
+/*ga4*/
+/*#ga4 {
+  position: absolute;
+  left:0px;
+  top: 100px;
+  border: solid black 4px;
+}
+#ga5 {
+  position: absolute;
+  left:100px;
+  top: 100px;
+  border: solid black 4px;
+}
+#ga6 {
+  position: absolute;
+  left:200px;
+  top: 100px;
+  border: solid black 4px;*/
+}
+#alex1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+/*#ga2 {
+  position: absolute;
+  left:100px;
+  top: 0px;
+  border: solid black 4px;*/
+}
+#michael1 {
+  position: absolute;
+  left:0px;
+  top: 0px;
+  border: solid black 2px;
+}
+
+
+/*1*/
+.small_front {
+
+  transform: translateZ(1em);
+}
+/*5*/
+.small_top {
+  transform: rotateX(90deg) translateZ(1em);
+}
+/*4*/
+.small_right {
+  transform: rotateY(90deg) translateZ(1em);
+}
+/*3*/
+.small_left {
+  transform: rotateY(-90deg) translateZ(1em);
+}
+/*2*/
+.small_bottom {
+  transform: rotateX(-90deg) translateZ(1em);
+}
+/*6*/
+.small_back {
+  transform: rotateY(-180deg) translateZ(1em);
+}

@@ -1,0 +1,256 @@
+
+
+/*************
+* Section specific formatting *
+*************/
+
+body {
+    font-family: 'arial', sans-serif;
+}
+
+#page {
+    /*max-width: 58.750em;*/
+    margin: auto;
+}
+
+#students {
+  max-width: 51.25em;
+}
+
+#blurb {
+  max-width:41.25em;
+  margin:auto;
+}
+
+#content {
+  max-width: 51.25em;
+  margin:auto;
+}
+
+
+
+/*************
+* TYPOGRAPHY *
+*************/
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+
+
+h1 {
+    font-size: 3.8em;
+    font-family: 'arial', sans-serif;
+    text-align: center;
+    color: black;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+
+h2#subtitle {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'arial',  sans-serif;
+    text-align: center;
+    color: red;
+    margin-bottom: 0.65em;
+}
+
+h3 {
+  font-family: 'arial', sans-serif;
+  font-size: 1.25em;
+}
+
+h4{
+  font-family: 'arial', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+p {
+    font-size: 0.875em;
+    margin-bottom: 3em;
+}
+
+/*************
+* HEADER and NAVBAR  *
+*************/
+
+
+.full_width {
+  width: 100% !important;
+
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#navbar_in {
+  padding: 0.625em;
+  margin: 0;
+}
+
+#navbar_in a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold
+}
+
+#navbar_in a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+#navbar_in li {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  float: right;
+  // padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+.title {
+  margin:auto;
+  padding-top: 100px;
+}
+
+
+/*************
+* TECH sections *
+*************/
+
+.tech_set {
+  float:left;
+}
+.tech_block {
+  width: 10em;
+  margin-right: 3.75em;
+  float: left;
+}
+
+.tech_block img {
+  margin: auto;
+  display: block;
+ 
+}
+
+.tech_block h3{
+  margin: 0 auto;
+}
+
+.tech_block p {
+  text-align: justify;
+}
+
+/* zero right margin for right most tech_block*/
+.tech_set:last-child .tech_block:last-child {
+    margin-right: 0em;
+}
+
+/* zero right margin for 2nd tech_block
+because the screen is narrow*/
+
+@media all and (max-width: 450px) {
+  .tech_block:last-child {
+      margin-right: 0em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+ .small_cube {
+ margin: 100px;
+}
+  }
+/*************
+* Students sections *
+*************/
+
+.row div {
+  float: left;
+}
+
+.row img {
+}
+
+.profile h1 {
+  font-size: 2em;
+}
+
+h1.right {
+  text-align: right;
+}
+
+h1.left {
+  text-align: left;
+}
+
+.profile-row {
+  margin-top: 0;
+  width:100%;
+}
+
+.profile {
+  position: relative;
+  display: none;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px;
+  width:50em;
+}
+
+.portrait {
+  margin: 10px;
+}
+
+a.personal_website {
+  text-decoration: none;
+  color: #f24738;
+}
+a.personal_website:hover{
+  text-decoration: underline;
+  color: #f24738;
+}
+
+
+/*************
+* FOOTER section *
+*************/
+
+.footer {
+  margin-top: 50px;
+  background-color: black;
+  padding: 10px;
+}
+
+.footer_elements {
+  width: 51.25em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ga_logo {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+img.logo_image {
+  max-height: 5em;
+}
+
