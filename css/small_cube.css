@@ -68,14 +68,7 @@
   top: 0px;
   border: solid black 2px;
 }
-#sadiq1 {
-  position: absolute;
-  left:0px;
-  top:0px;
-  border: solid black 2px;
-}
-
-#bruno1 {
+#sadiq1, #bruno1 {
   position: absolute;
   left:0px;
   top:0px;

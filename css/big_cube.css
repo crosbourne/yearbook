@@ -1,15 +1,82 @@
-.wrapper {
-  margin-top:0;
+#up {
   width: 100%;
-  float: left;
+text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 0px;
+ margin-bottom: 30px;
+z-index: 10;
+
+
+}
+#down {
+   width: 100%;
+ text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 460px;
+  transform: rotate(-180deg); 
+
 }
 
-.w1 {
-  perspective: 1000px;
+#left {
+  position: absolute;
+  width:100%;
+  text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   transform: rotate(-90deg);
+  left:-300px;
+  top:250px;
+  z-index: 10;
 }
+#right {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   transform: rotate(90deg);
+  left:300px;
+  top:250px;
+  z-index: 10;
+}
+/*makes the arrows scroll rather the stay in place*/
+/*#left {
+  position: absolute;
+  text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   transform: rotate(-90deg);
+  left:0px;
+  top:250px;
+}
+#right {
+  position: absolute;
+  text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   transform: rotate(90deg);
+  right:0px;
+  top:250px;
+}*/
+
+.wrapper {
+  perspective: 1000px;
+  position: absolute;
+  top: 35px;
+  width: 100%;
+
+  z-index: -1;
+ 
+}
+
 
 .wrapper h1 {
   text-align: center;
+  z-index: 0;
+
+
 }
 
 
@@ -22,10 +89,7 @@
   transform-style: preserve-3d;
   /*rotate cube left and right*/
   transform: rotateX(-20deg) rotateY(40deg);
-}
-.cube_background {
-  width: 100%;
-  height: 500px;
+  
 }
 
 .side {
@@ -39,6 +103,7 @@
   color: white;
   text-align: center;
   line-height: 2em;
+ 
 }
 /*side 1*/
 #neil {
