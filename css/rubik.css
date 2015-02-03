@@ -14,10 +14,9 @@ z-index: 10;
  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 550px;
- 
+/*  move the nav bar down*/
+  margin-top: 595px;
   z-index: -1;
-
 }
 
 #cube-container{
@@ -72,104 +71,31 @@ z-index: 10;
 #cube .cubie > div span{
     visibility: hidden;
 }
-
-#neil {
-  border: solid black 3px;
+/*FRONT FACE*/
+#neil, #luke, #joel, #sadiq, #bruno, #mathieu, #andres, #sophie,#jarkyn {
+  /*border: solid black 3px;*/
 }
 
+/*LEFT FACE*/
+#nina, #lisa, #daniel, #sebastian, #tony, #julia, #ellie, #rabia, #joanna {
+}   
 
-#luke {
-  border: solid black 3px;
-}
-
-#joel{
-  border: solid black 3px;
-}
-#sadiq {
-  border: solid black 3px;
+/*TOP FACE*/
+#michael, #ga2, #alex, #ga4, #ga5, #ga6, #ga7, #ga8, #ga9 {
 }
 
-#bruno {
-  border: solid black 3px;
+/*BACK FACE (red GA)*/
+#gar1, #gar2, #gar3, #gar4, #gar5, #gar6, #gar7, #gar8, #gar9 {
 }
 
-#mathieu{
-  border: solid black 3px;
-}
-#andres {
-  border: solid black 3px;
+/*RIGHT FACE*/
+#wd12, #wdi2, #wdi3, #wdi4, #wdi5, #wdi6, #wdi7, #wdi8, #wdi9 {
 }
 
-#sophie {
-  border: solid black 3px;
+/*DOWN FACE*/
+#gab, #gab2 #gab3, #gab4, #gab5, #gab6, #gab7, #gab8, #gab9 {
 }
 
-#ga9{
-  border: solid black 3px;
-}
-/*side 2*/
-#nina {
-  border: solid black 3px;
-}
-
-#lisa {
-  border: solid black 3px;
-}
-
-#daniel{
-  border: solid black 3px;
-}
-#sebastian {
-  border: solid black 3px;
-}
-#tony {
-  border: solid black 3px;
-}
-#julia {
-  border: solid black 3px;
-}
-
-#ellie{
-  border: solid black 3px;
-}
-#rabia {
-    border: solid black 3px; 
-}
-
-#ga7 {
-
-    border: solid black 3px;
-}
-/*top*/
-#joanna {
-  border: solid black 3px;
-
-}
-#ga8 {
-  border: solid black 3px;
-}
-#jarkyn {
-  border: solid black 3px;
-}
-/*ga4*/
-#ga4 {
-  border: solid black 3px;
-}
-#ga5 {
-  border: solid black 3px;
-}
-#ga6 {
-  border: solid black 3px;
-}
-#alex {
-  border: solid black 3px;
-}
-#ga2 {
-  border: solid black 3px;
-}
-#michael {
-  border: solid black 3px;
-}
 /* TEXT ROTATIONS */
 .textLeft{-webkit-transform: rotate(-90deg)}
 .textDown{-webkit-transform: rotate(-180deg)}

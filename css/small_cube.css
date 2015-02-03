@@ -46,178 +46,36 @@
   top:0px;
   border: solid black 2px;
 }
-/*side 1*/
-#neil1 {
+/*FRONT FACE*/
+#neil1, #luke1, #joel1, #sadiq1, #bruno1,#mathieu1,
+#andres1, #sophie1, #nina1, #lisa1, #daniel1, #sebastian1, #tony1, #julia1,
+#ellie1, #rabia1, #joanna1, #alex1, #jarkyn1, #joanna1, #michael1  {
   position: absolute;
   left:0px;
   top:0px;
   border: solid black 2px;
 }
 
-
-#luke1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  border: solid black 2px;
-}
-
-#joel1{
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-#sadiq1, #bruno1 {
+/*TOP FACE*/
+/*#ga1_1, #ga2_1, #ga3_1, #ga4_1, #ga5_1, #ga6_1, #ga7_1, #ga8_1, #ga9_1,
+#gar1_1, #gar2_1, #gar3_1, #gar4_1, #gar5_1, #gar6_1, #gar7_1, #gar8_1, #gar9_1  {
   position: absolute;
   left:0px;
   top:0px;
   border: solid black 2px;
-}
-
-#mathieu1{
-  position: absolute;
-  left:0px;
-  top:0px;
-  border: solid black 2px;
-}
-#andres1 {
-  position: absolute;
-  left:0px;
-  top:0px;
-  border: solid black 2px;
-}
-
-#sophie1 {
-  position: absolute;
-  left:0px;
-  top:0px;
-  border: solid black 2px;
-}
-
-/*#ga9{
-  position: absolute;
-  left:200px;
-  top:200px;
-  border: solid black 4px;
 }*/
-/*side 2*/
-#nina1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
 
-#lisa1 {
+/*BACK FACE*/
+/*#wd12_1, #wdi2_1, #wdi3_1, #wdi4_1, #wdi5_1, #wdi6_1, #wdi7_1, #wdi8_1, #wdi9_1,
+#gab_1, #gab2_1, #gab3_1, #gab4_1, #gab5_1, #gab6_1, #gab7_1, #gab8_1, #gab9_1  {
   position: absolute;
   left:0px;
-  top: 0px;
+  top:0px;
   border: solid black 2px;
-}
+}*/
 
-#daniel1{
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-#sebastian1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-#tony1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-#julia1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
 
-#ellie1{
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-#rabia1 {
-  position: absolute;
-    left:0px;
-    top: 0px; 
-    border: solid black 2px; 
-}
 
-/*#ga7 {
-    position: absolute;
-    left:200px;
-    top: 200px;
-    border: solid black 4px;*/
-}
-/*top*/
-#joanna1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
- 
-}
-/*#ga8 {
-  position: absolute;
-  left:100px;
-  top: 200px;
-  border: solid black 4px;*/
-}
-#jarkyn1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-
-/*ga4*/
-/*#ga4 {
-  position: absolute;
-  left:0px;
-  top: 100px;
-  border: solid black 4px;
-}
-#ga5 {
-  position: absolute;
-  left:100px;
-  top: 100px;
-  border: solid black 4px;
-}
-#ga6 {
-  position: absolute;
-  left:200px;
-  top: 100px;
-  border: solid black 4px;*/
-}
-#alex1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
-/*#ga2 {
-  position: absolute;
-  left:100px;
-  top: 0px;
-  border: solid black 4px;*/
-}
-#michael1 {
-  position: absolute;
-  left:0px;
-  top: 0px;
-  border: solid black 2px;
-}
 
 
 /*1*/
