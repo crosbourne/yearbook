@@ -213,7 +213,6 @@ p {
   letter-spacing: 0.2em;
   display: inline-block;
   float: right;
-  // padding: 5px;
   background-color: black;
   color: white;
 }
@@ -263,18 +262,51 @@ p {
 
 /* zero right margin for 2nd tech_block
 because the screen is narrow*/
-
+/*small screen*/
 @media all and (max-width: 450px) {
   .tech_block:last-child {
       margin-right: 0em;
+  }  
+}
+
+/*big screen*/
+@media screen and (min-width: 641px) {
+
+  ul li {
+    display: inline-block;
+  }
+
+  #nav-icon{
+  display: none;
   }
 }
 
+/*small screen*/
 @media screen and (max-width: 640px) {
 
- .small_cube {
- margin: 100px;
+
+  .portrait{
+display: center;
+padding: 20px;
   }
+
+  nav ul li  {
+   z-index: 0;
+   display: none;
+   background: black;
+   color: yellow;
+   float: right;
+   text-align: right;
+ }
+
+ #nav-icon {
+   display: inline-block;
+   font-size: 20px;
+   float: right;
+   text-decoration: none;
+   
+ }
+
 }
 /*hide links in navbar*/
 /*a {
