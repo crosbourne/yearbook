@@ -42,6 +42,7 @@
 
   background: url("../images/ga_off.png") center no-repeat;
   background-size: 100%;
+  cursor: pointer;
 
   height: 70px;
   width: 70px;
@@ -56,6 +57,7 @@
 
   background: url("../images/ga_on.png") center no-repeat;
   background-size: 100%;
+  cursor: pointer;
 }
 
 
@@ -67,21 +69,25 @@
 #cube-controls .rotate{
   background: url("../images/rotate.png") center no-repeat;
   background-size: 100%;
+  cursor: pointer;
 } /*use blank png*/
 
 #cube-controls .solve{
     background: url("../images/reset.png") center no-repeat;
     background-size: 90%;
+    cursor: pointer;
 } /*use blank png*/
 
 #cube-controls .undo{
   background: url("../images/undo.png") center no-repeat;
     background-size: 100%;
+    cursor: pointer;
 } /*use blank png*/
 
 #cube-controls .redo{
   background: url("../images/redo.png") center no-repeat;
     background-size: 100%;
+    cursor: pointer;
 } /*use blank png*/
 
 

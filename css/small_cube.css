@@ -55,12 +55,25 @@
   top:0px;
   border: solid black 2px;
 }
-#neil1:before{
-    background: rgba(0,255,255,1);
+
+
+.small_front:after {
+    content:'';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: red;
+    opacity: 0.85;
 }
-#neil1:hover:before{
-    background:none;
+.small_front:hover:after {
+    opacity: 0;
 }
+
+#ignore {
+  background: red !important;
+  opacity: 0;
+  }
 
 /*TOP FACE*/
 /*#ga1_1, #ga2_1, #ga3_1, #ga4_1, #ga5_1, #ga6_1, #ga7_1, #ga8_1, #ga9_1,
