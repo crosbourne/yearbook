@@ -1,4 +1,18 @@
 window.onload = function() {
+  var scrollbarPosition = $("#navbar").position().top;
+
+  $(document).on("scroll", function() {
+
+    var windowPosition = $(document).scrollTop();
+        
+    if (windowPosition >= scrollbarPosition) {
+      $("#navbar").addClass("sticky");
+    }
+    else{
+      $("#navbar").removeClass("sticky");
+    }
+
+  });
 
 
   $('#nav-icon').on('click', function(e){
