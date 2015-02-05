@@ -225,7 +225,8 @@ nav ul li {
 
 .title {
   margin:auto;
-  padding-top: 100px;
+  margin-top: 120px;
+
 }
 
 
@@ -264,9 +265,11 @@ nav ul li {
 /* zero right margin for 2nd tech_block
 because the screen is narrow*/
 /*small screen*/
-@media all and (max-width: 450px) {
+@media all and (max-width: 440px) {
   .tech_block:last-child {
     margin-right: 0em;
+    margin-left: 0em;
+  /*  display: inline-block;*/
   }  
 
 }
@@ -288,25 +291,11 @@ because the screen is narrow*/
 @media screen and (max-width: 640px) {
 
 
-  .profile > h1 {
-    text-align: left;
-
-  }
-
-  .profile p {
-   margin: 0;
-   text-align: left;
-   display: block;
-   width: 300px;
- }
-
  nav ul li  {
    z-index: 0;
-   /*display: block;*/
    display: none;
    background: black;
    color: yellow;
-   /*float: right;*/
    width: 100%;
    text-align: right;
  }
@@ -318,10 +307,7 @@ because the screen is narrow*/
    text-decoration: none;  
  }
 }
-/*hide links in navbar*/
-/*a {
-  display: none;
-}*/
+
 
 
 /*************
@@ -347,19 +333,16 @@ h1.left {
   text-align: left;
 }
 
-.profile-row {
-  margin-top: 0;
-  width:100%;
-}
 
 .profile {
   position: relative;
   display: none;
   float: left;
+  text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 10px;
-  width:50em;
+  width:150px;
 }
 
 .portrait {
