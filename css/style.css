@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 h1 {
-    font-size: 3.8em;
+    font-size: 3em;
     font-family: 'arial', sans-serif;
     text-align: center;
     color: black;
@@ -295,7 +295,6 @@ because the screen is narrow*/
    z-index: 0;
    display: none;
    background: black;
-   color: yellow;
    width: 100%;
    text-align: right;
  }
@@ -303,8 +302,14 @@ because the screen is narrow*/
  #nav-icon {
    display: inline-block;
    font-size: 30px;
+   color:white;
+   margin-right: 20px;
    float: right;
    text-decoration: none;  
+ }
+ #nav-icon:hover{
+   text-decoration: none;
+   color: red;
  }
 }
 
@@ -349,7 +354,7 @@ h1.left {
   margin: 10px;
 }
 
-a.personal_website {
+/*a.personal_website {
   text-decoration: none;
   color: #f24738;
 }
@@ -357,7 +362,7 @@ a.personal_website:hover{
   text-decoration: underline;
   color: #f24738;
 }
-
+*/
 
 /*************
 * FOOTER section *
@@ -372,6 +377,7 @@ a.personal_website:hover{
 .footer_elements {
   margin: 0 auto;
   text-align: center;
+  width:100%;
 }
 
 .ga_logo {
