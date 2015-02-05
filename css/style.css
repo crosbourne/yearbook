@@ -278,6 +278,7 @@ because the screen is narrow*/
     max-width:35em;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: justify;
   }
 }
 
