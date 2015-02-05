@@ -94,11 +94,6 @@ body {
     font-family: 'arial', sans-serif;
 }
 
-/*#page {*/
-    /*max-width: 58.750em;*/
-  /*  margin: auto;*/
-/*}*/
-
 #students {
   max-width: 51.25em;
 }
@@ -231,7 +226,7 @@ nav ul li {
 
 
 /*************
-* TECH sections *
+* small cube rows sections *
 *************/
 
 .tech_set {
@@ -253,10 +248,12 @@ nav ul li {
 
 .tech_block h3{
   margin: 0 auto;
+  padding-left: 10px;
 }
 
 .tech_block p {
   text-align: justify;
+  padding-left: 10px;
 }
 
 /* zero right margin for right most tech_block*/
@@ -270,10 +267,12 @@ because the screen is narrow*/
 @media all and (max-width: 440px) {
   .tech_block:last-child {
     margin-right: 0em;
-    margin-left: 0em;
-  /*  display: inline-block;*/
   }  
-
+  #blurb {
+    max-width:35em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 
