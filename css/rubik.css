@@ -15,7 +15,7 @@ z-index: 10;
   margin-left: auto;
   margin-right: auto;
 /*  move the nav bar down*/
-  margin-top: 595px;
+  margin-top: 550px;
   z-index: -1;
 }
 
@@ -23,7 +23,7 @@ z-index: 10;
    left:50%;
    margin-left: -255px;
    position:absolute;
-   top: 30px;
+   top: 100px;
    margin-bottom: 50px;
    cursor: -webkit-grab;
 }

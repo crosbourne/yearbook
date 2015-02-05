@@ -1,18 +1,27 @@
 window.onload = function() {
-  var scrollbarPosition = $("#navbar").position().top;
+  // var scrollbarPosition = $("#navbar").position().top;
 
-  $(document).on("scroll", function() {
+  // $(document).on("scroll", function() {
 
-    var windowPosition = $(document).scrollTop();
+  //   var windowPosition = $(document).scrollTop();
         
-    if (windowPosition >= scrollbarPosition) {
-      $("#navbar").addClass("sticky");
-    }
-    else{
-      $("#navbar").removeClass("sticky");
-    }
+  //   if (windowPosition >= scrollbarPosition) {
+  //     $("#navbar").addClass("sticky");
+  //   }
+  //   else{
+  //     $("#navbar").removeClass("sticky");
+  //   }
 
+  // });
+
+
+  $('#nav-icon').on('click', function(e){
+    e.preventDefault();
+    $('nav ul li').slideToggle();
+    console.log("working");
   });
+
+
 
 
   function close_all_but(div_id) {

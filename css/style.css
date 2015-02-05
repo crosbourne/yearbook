@@ -23,7 +23,7 @@
 
     opacity: 0;
     display: none;
-    margin-right:2em;
+    margin-right:1em;
     position:absolute;
     margin-top: 20px;
     /*move cube buttons down*/
@@ -181,6 +181,7 @@ p {
 
 .clearnav{
   margin-bottom: 0;
+  margin-top: 80px;
   height:80px;
 }
 
@@ -208,7 +209,7 @@ p {
   z-index: 3;
 }
 
-#navbar_in li {
+nav ul li {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   display: inline-block;
@@ -267,16 +268,18 @@ because the screen is narrow*/
   .tech_block:last-child {
     margin-right: 0em;
   }  
+
 }
+
 
 /*big screen*/
 @media screen and (min-width: 641px) {
 
   ul li {
-    display: inline-block;
+    display: inline-block !important;
   }
 
-  #nav-icon{
+  #nav-icon {
     display: none;
   }
 }
@@ -284,13 +287,6 @@ because the screen is narrow*/
 /*small screen*/
 @media screen and (max-width: 640px) {
 
-
-  .pure-u-1-4 {
-    margin: auto;
-    display: block;
-    padding: 20px;
-    text-align: center;
-  }
 
   .profile > h1 {
     text-align: left;
@@ -304,13 +300,14 @@ because the screen is narrow*/
    width: 300px;
  }
 
-
  nav ul li  {
    z-index: 0;
-   display: block;
+   /*display: block;*/
+   display: none;
    background: black;
    color: yellow;
-   float: right;
+   /*float: right;*/
+   width: 100%;
    text-align: right;
  }
 
