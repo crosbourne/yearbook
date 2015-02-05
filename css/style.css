@@ -265,7 +265,7 @@ because the screen is narrow*/
 /*small screen*/
 @media all and (max-width: 450px) {
   .tech_block:last-child {
-      margin-right: 0em;
+    margin-right: 0em;
   }  
 }
 
@@ -277,7 +277,7 @@ because the screen is narrow*/
   }
 
   #nav-icon{
-  display: none;
+    display: none;
   }
 }
 
@@ -285,14 +285,29 @@ because the screen is narrow*/
 @media screen and (max-width: 640px) {
 
 
-  .portrait{
-display: center;
-padding: 20px;
+  .pure-u-1-4 {
+    margin: auto;
+    display: block;
+    padding: 20px;
+    text-align: center;
   }
 
-  nav ul li  {
+  .profile > h1 {
+    text-align: left;
+
+  }
+
+  .profile p {
+   margin: 0;
+   text-align: left;
+   display: block;
+   width: 300px;
+ }
+
+
+ nav ul li  {
    z-index: 0;
-   display: none;
+   display: block;
    background: black;
    color: yellow;
    float: right;
@@ -303,10 +318,14 @@ padding: 20px;
    display: inline-block;
    font-size: 20px;
    float: right;
-   text-decoration: none;
-   
+   text-decoration: none;  
  }
 
+ .logo_image{
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+  }
 }
 /*hide links in navbar*/
 /*a {
