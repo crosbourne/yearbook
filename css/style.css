@@ -107,6 +107,9 @@ body {
 #blurb {
   max-width:41.25em;
   margin:auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
 }
 
 #content {
@@ -274,12 +277,6 @@ because the screen is narrow*/
   .tech_block:last-child {
     margin-right: 0em;
   }  
-  #blurb {
-    max-width:35em;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: justify;
-  }
 }
 
 
@@ -309,8 +306,9 @@ because the screen is narrow*/
 
  #nav-icon {
    display: inline-block;
-   font-size: 30px;
+   font-size: 23px;
    color:white;
+   font-weight: bold;
    margin-right: 20px;
    float: right;
    text-decoration: none;  
@@ -318,6 +316,9 @@ because the screen is narrow*/
  #nav-icon:hover{
    text-decoration: none;
    color: red;
+ }
+ #blurb {
+   max-width:35em;
  }
 }
 
