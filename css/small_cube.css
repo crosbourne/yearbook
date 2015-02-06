@@ -85,6 +85,7 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
+  transition:0.5s;
   pointer-events: none;
 }
 
@@ -127,6 +128,7 @@
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
+  transition:1s;
   pointer-events: none;
 }
 
