@@ -114,44 +114,46 @@
 }
 
 /* Add this attribute to the element that needs a tooltip */
-/*[cube-tooltip] {
+[cube-tooltip] {
   position: relative;
   z-index: 2;
   cursor: pointer;
-}*/
+}
 
 /* Hide the tooltip content by default */
-/*[cube-tooltip]:before,
+[cube-tooltip]:before,
 [cube-tooltip]:after {
   visibility: hidden;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   pointer-events: none;
-}*/
+}
 
 /* Position tooltip above the element */
-/*[cube-tooltip]:before {
+[cube-tooltip]:before {
   position: absolute;
-  bottom: 97%;
-  width:100%;
-  margin-left: 55px;
+  margin-left: 60px;
+  bottom: 98%;
+  width: 80%;
   color: black;
   content: attr(cube-tooltip);
   text-align: center;
   font-size: 14px;
   line-height: 1.2;
-}*/
+}
 
 
 /* Show tooltip content on hover */
-/*[cube-tooltip]:hover:before,
+[cube-tooltip]:hover:before,
 [cube-tooltip]:hover:after {
   visibility: visible;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-}*/
+}
+
+
 
 
 /*TOP FACE*/
