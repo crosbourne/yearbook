@@ -71,6 +71,88 @@
     opacity: 0;
 }
 
+/* Add this attribute to the element that needs a tooltip */
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -34px;
+  padding: 7px;
+  width: 50px;
+ 
+  color: black;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Add this attribute to the element that needs a tooltip */
+/*[cube-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}*/
+
+/* Hide the tooltip content by default */
+/*[cube-tooltip]:before,
+[cube-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}*/
+
+/* Position tooltip above the element */
+/*[cube-tooltip]:before {
+  position: absolute;
+  bottom: 97%;
+  width:100%;
+  margin-left: 55px;
+  color: black;
+  content: attr(cube-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}*/
+
+
+/* Show tooltip content on hover */
+/*[cube-tooltip]:hover:before,
+[cube-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}*/
+
 
 /*TOP FACE*/
 /*#ga1_1, #ga2_1, #ga3_1, #ga4_1, #ga5_1, #ga6_1, #ga7_1, #ga8_1, #ga9_1,

@@ -39,7 +39,7 @@
         </ul>
       </nav>
     <section id="rubik">
-      <div id="cube-container">
+      <div id="cube-container"cube-tooltip="Swipe cube to rotate layers. Click the rotate button and swipe cube to rotate whole cube.">
         <div id="cube-viewport">
           <div id="cube">
             <!-- UP FACE -->            
@@ -150,16 +150,16 @@
         <div id="cube-controls">
           <ul class="clearnav">
             <li>
-              <div class="undo"></div>
+              <div class="undo"data-tooltip="Undo"></div>            
             </li>
             <li>
-              <div class="redo"></div>
+              <div class="redo"data-tooltip="Redo"></div>
             </li>
             <li>
-              <div  class="solve"></div>
+              <div  class="solve"data-tooltip="Reset"></div>
             </li>
             <li id="rotation">
-              <div class="rotate"></div>
+              <div class="rotate"data-tooltip="Rotate"></div>
             </li>
           </ul>
         </div>   
