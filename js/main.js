@@ -38,7 +38,7 @@ window.onload = function() {
     $(div_id).slideUp("slow");
   }
 
-  var profile_divs=new Array("#neil-profile","#luke-profile","#joel-profile", "#sadiq-profile","#bruno-profile","#mathieu-profile","#andres-profile","#sophie-profile","#nina-profile","#lisa-profile","#daniel-profile","#sebastian-profile","#tony-profile","#julia-profile","#ellie-profile","#rabia-profile","#alex-profile","#joanna-profile","#michael-profile","#jarkyn-profile");
+  var profile_divs=new Array("#neil-profile","#luke-profile","#joel-profile", "#sadiq-profile","#bruno-profile","#mathieu-profile","#andres-profile","#sophie-profile","#nina-profile","#lisa-profile","#daniel-profile","#sebastian-profile","#tony-profile","#julia-profile","#ellie-profile","#rabea-profile","#alex-profile","#joanna-profile","#michael-profile","#jarkyn-profile");
 
   $('#neil-portrait').mouseenter(function() {
     close_all_but('#neil-profile');
@@ -157,11 +157,11 @@ window.onload = function() {
     close('#ellie-profile');
   });
 
-  $('#rabia-portrait').mouseenter(function() {
-    close_all_but('#rabia-profile');
+  $('#rabea-portrait').mouseenter(function() {
+    close_all_but('#rabea-profile');
   });
-  $('#rabia-portrait').mouseleave(function() {
-    close('#rabia-profile');
+  $('#rabea-portrait').mouseleave(function() {
+    close('#rabea-profile');
   });
  
  $('#alex-portrait').mouseenter(function() {
